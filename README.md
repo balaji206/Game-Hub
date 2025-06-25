@@ -74,16 +74,16 @@ src/
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](public/images/HomePage.png)
+![Home Page](images/HomePage.png)
 
 ### ✖️ Tic Tac Toe
-![Tic Tac Toe](public/images/TicTacToePage.png)
+![Tic Tac Toe](images/TicTacToePage.png)
 
 ### ⌨️ Typing Speed Test
-![Typing Test](public/images/TypingMasterPage.png)
+![Typing Test](images/TypingMasterPage.png)
 
 ### 🃏 Card Flip Memory Game
-![Card Flip Game](public/images/CardClashpage.png)
+![Card Flip Game](images/CardClashpage.png)
 
 
 ---
