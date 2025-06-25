@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* Dark mode body background and text */
+body.dark-mode {
+  background-color: #111827; /* dark gray */
+  color: white;
+}
+
+/* Override specific component backgrounds and borders */
+body.dark-mode .box,
+body.dark-mode textarea,
+body.dark-mode .output,
+body.dark-mode .sentence-box {
+  background-color: #1f2937; /* slightly lighter dark gray */
+  color: white;
+  border-color: #374151;
+}
+
+/* Optional: smooth transition */
+body, .box, textarea, .output, .sentence-box {
+  transition: all 0.3s ease;
+}
+
+
+/* Memory card styles */
+.card {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+body.dark-mode .card {
+  background-color: #1f2937; /* Tailwind gray-800 */
+  color: white;
+}
+
+/* Victory message box */
+.message-box {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+body.dark-mode .message-box {
+  background-color: white;
+  color: black;
+}
+body,
+.app-container {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+body.dark-mode,
+body.dark-mode .app-container {
+  background-color: #111827; /* Tailwind dark bg */
+  color: white;
+}
